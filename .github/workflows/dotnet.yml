@@ -24,7 +24,7 @@ jobs:
       working-directory: ./ConsoleAppForUnitTesting
       run: dotnet restore
     - name: Build
-      working-directory: ./ConsoleAppForUnitTesting
+      working-directory: ./ConsoleAppForUnitTesting/Logic
       run: dotnet build --no-restore
     - name: Test
       working-directory: ./ConsoleAppForUnitTesting
