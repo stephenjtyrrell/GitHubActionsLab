@@ -28,4 +28,4 @@ jobs:
       run: dotnet build --configuration Debug --no-restore
     - name: Test
       working-directory: ./ConsoleAppForUnitTesting
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test --configuration Release --no-build --verbosity normal
